@@ -1,4 +1,4 @@
-# DTSC484 Project - Volleyball Analytics
+# DTSC484 - Graduation Project - Machine Learning Approaches to Match-Level Prediction and Performance Analytics in Collegiate Volleyball
 
 This project explores how machine learning can be used to predict NCAA Division I women’s volleyball match outcomes using team-match level data. The project was completed by me (Arunima Srikant) as part of the DTSC484 Graduation Project at FLAME University.
 
