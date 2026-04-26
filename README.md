@@ -72,3 +72,19 @@ Creates visual outputs used in the final report/dissertation, such as:
 ### `ablation.py`
 
 Runs ablation experiments to test the importance of different feature groups and compares model performance under reduced feature settings.
+
+## Execution Guide
+
+After installing dependencies and placing the required CSV files in 
+SEM8/Grad Project/ 
+run the main project pipeline using 
+python volleyball_prediction_pipeline.py
+
+This script performs data preprocessing, feature engineering, model training, and evaluation.
+
+Additional scripts: 
+
+python other_models.py -- runs Logistic Regression, Random Forest, and Gradient Boosting model comparisons.
+python thesis_conf_plots.py -- generates confidence analysis and calibration plots.
+python generate_figures.py -- creates figures and tables used in the final report.
+python ablation.py -- runs ablation experiments on feature groups
