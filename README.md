@@ -29,3 +29,46 @@ Raw datasets are not uploaded directly to this repository. To run the project, d
 
 Note: The current scripts use the following local path:
 SEM8/Grad Project/
+
+## Repository Files
+
+### `volleyball_prediction_pipeline.py`
+
+Main project pipeline. This script:
+
+- Loads and merges all yearly datasets  
+- Cleans and preprocesses the raw data  
+- Engineers match-level predictive features  
+- Trains an XGBoost classifier  
+- Reports model performance metrics such as Accuracy and ROC-AUC  
+- Generates feature importance plot  
+
+### `other_models.py`
+
+Uses the same preprocessing pipeline as the main script but trains other models:
+
+- Logistic Regression  
+- Random Forest  
+- Gradient Boosting  
+
+Outputs comparative model performance using Accuracy and ROC-AUC.
+
+### `thesis_conf_plots.py`
+
+Performs confidence analysis of the XGBoost model predictions. Includes:
+
+- Confidence bucket analysis  
+- Prediction certainty evaluation  
+- Calibration and reliability plots  
+
+### `generate_figures.py`
+
+Creates visual outputs used in the final report/dissertation, such as:
+
+- Ablation study plots  
+- Comparison charts  
+- Tables for LaTeX/report inclusion  
+
+### `ablation.py`
+
+Runs ablation experiments to test the importance of different feature groups and compares model performance under reduced feature settings.
